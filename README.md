@@ -14,3 +14,5 @@ To get started, you will need a Github account. We will assume you don't have on
   * Tip: If you sign up with your University email address, Github will give you five free private repositories (i.e. not publically-viewable).
   * Head over to www.github.com/edu after signing up to claim your free repositories.
 3. Install the Github client on your iSolutions workstation. It can be found under “Additional Software”, from the Desktop.
+
+You may fork this lab repo before the lab starts. It might just save you some time.
