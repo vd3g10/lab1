@@ -6,6 +6,7 @@ Please read the labs sheet carefully and follow the instructions.
 
 ## Preparation
 To get started, you will need a Github account. We will assume you don't have one.
+
 1. Browse to www.github.com.
 2. Sign up for a free account.
   * Github is a hosting service for Git repositories, which also features many useful tools for managing your development project.
