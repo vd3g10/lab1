@@ -1,6 +1,6 @@
 # COMP2203 Lab 1
 
-Lab sheet - https://secure.ecs.soton.ac.uk/notes/comp2203/files/COMP2203-Lab-1.pdf
+Lab sheet - https://secure.ecs.soton.ac.uk/notes/comp2203/labs/COMP2203-Lab-1.pdf
 
 Please read the labs sheet carefully and follow the instructions.
 
