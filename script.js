@@ -2,7 +2,7 @@
 My big file of javascript
 */
 
-var carArray = new Array('car-blue.png',"greencar.png",'pink.png','carred.png' "yella-car.png");
+var carArray = new Array('car-blue.png','greencar.png','pink.png','car-red.png', 'yellacar.png');
 
 function changeCar() {
 	var banger = carArray[Math.floor(Math.random() * carArray.length)];
@@ -16,7 +16,7 @@ function startTimer() {
 	// later I want to add some more automated stuff
 }
 
-var motdArray = new Array('It's a great day to sell cars!', "Welcome to Bodys Used Motors. The finest cars left!", "Today is "SALE FEVER" day!!!", 'A name you can surely trust!');
+var motdArray = new Array('Its a great day to sell cars!', 'Welcome to Boyds Used Motors. The finest cars left!', 'Today is SALE FEVER day!!!', 'A name you can surely trust!');
 
 // The important message of the day (motd)
 function changeMotd(){
@@ -35,7 +35,7 @@ function calculateCarValue(form) {
 	
 	// If the car is 5 or more years we want it
 	// More cheap stock is what we need!
-	if(carAge = 5 || carAge > 5){
+	if(carAge >= 5 ){
 		window.alert("I would be happy to take this rust bucket car off your hands. It's too old if it's " + carAge + " years old.");
 		return;
 	}
@@ -46,7 +46,7 @@ function calculateCarValue(form) {
 function calculateCarPrice(purchasePrice, carAge){
 	
 	// I think this was meant to be at 10% not 1000%. We might make some money then.
-	var pruchaseRate = 1000;
+	var pruchaseRate = 10;
 	
 	var value = ((purchasePrice / 100) * pruchaseRate) * (1 / carAge);
 	return value;
@@ -60,7 +60,7 @@ function calculateLoan(){
 	var borrowTime = parseInt(document.getElementById("borrowTime").value);
 	
 	// We need at least 50% interest - i want a new hot tub
-	var interestRate = 50;
+	var interestRate = 0.5;
 	var monthlyInterestRate = interestRate / 12;
 	
 	var totalMessage = "";
